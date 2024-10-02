@@ -1,0 +1,41 @@
+:root {
+    --cor-principal: #f00;
+    --cor-secundaria: #000;
+}
+
+header nav a {
+    color: var(--cor-secundaria);
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 8px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #ffff;
+    border-color: var(--cor-principal);
+    border-radius: 8px;
+    background-color: var(--cor-principal);
+}
+
+.ativo {
+    color: #ffff;
+    border-color: var(--cor-principal);
+    border-radius: 8px;
+    background-color: var(--cor-principal);
+}
+
+#inicio {
+    min-height: 400px;
+    background-color: aliceblue;
+}
+
+#quem-somos {
+    min-height: 400px;
+    background-color: bisque;
+}
+
+#contato {
+    min-height: 400px;
+    background-color: brown;
+}
